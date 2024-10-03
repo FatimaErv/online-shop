@@ -1,0 +1,114 @@
+.signup {
+    display: flex;
+   gap: 130px;
+    height: 781px;
+    margin-top: 60px;
+    .image {
+        img{
+            width: 805px;
+            height: 781px;
+        }
+    }
+    .create{
+        margin-top: 125px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h1{
+         color: rgb(0, 0, 0);
+         font-family: Inter;
+         font-size: 36px;
+         font-weight: 500;
+         line-height: 30px;
+         letter-spacing: 4%;
+         text-align: left;
+        }
+        p{
+          color: rgb(0, 0, 0);
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+        input{
+            width: 370px;
+            height: 32px;
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+            background-color: transparent;
+        }
+        input:placeholder{
+            /* Title/16PX Regular */
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        input:focus{
+            outline: none;
+        }
+        .bottons-1{
+            display: flex;
+
+        }
+        button {
+           
+            width: 141px;
+            height: 56px;
+            border-radius: 4px;
+            background: rgb(219, 68, 68);
+            color: rgb(250, 250, 250);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+            border: none;
+        }
+        .btn2{
+        
+            button {
+                
+                box-sizing: border-box;
+                border: 1px solid rgba(0, 0, 0, 0.4);
+                border-radius: 4px;
+                width: 371px;
+                height: 56px;
+                border: none;
+                color: rgb(219, 17, 17);
+                background-color: white;
+                width: 200px;
+            }
+        }
+    }
+    .log {
+        margin-top: 30px;
+        margin-left: 70px;
+        span{
+            /* Title/16PX Regular */
+            color: rgba(0, 0, 0, 0.4);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+        a{
+            /* Title/16PX Medium */
+            color: rgba(0, 0, 0, 0.4);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+    }
+}
