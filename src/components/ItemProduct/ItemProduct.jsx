@@ -10,6 +10,7 @@ const API = "https://65ab6a1efcd1c9dcffc659a4.mockapi.io/api/v1/advertisement"
 
 
 function ItemProduct() {
+    
     const {id} = useParams()
     const [data, setData] = useState({})
     const [image, setImage] =useState("")
